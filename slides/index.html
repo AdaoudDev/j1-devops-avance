@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>DevOps avancé : Sommaire</title>
+  <style>
+    body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; background:#1e1e1e; color:#eee; max-width:900px; margin:60px auto; padding:0 24px; }
+    h1 { border-bottom:2px solid #4ec9b0; padding-bottom:8px; }
+    a.card { display:block; background:#2d2d2d; border-left:4px solid #4ec9b0; padding:20px 24px; margin:16px 0; color:#eee; text-decoration:none; border-radius:4px; transition:transform .15s; }
+    a.card:hover { transform:translateX(4px); background:#333; }
+    a.card h2 { margin:0 0 8px 0; color:#4ec9b0; }
+    a.card p  { margin:0; color:#bbb; }
+    ul.docs { list-style:none; padding:0; }
+    ul.docs li { margin:8px 0; }
+    ul.docs a { color:#4ec9b0; }
+    footer { margin-top:60px; color:#777; font-size:.85em; }
+  </style>
+</head>
+<body>
+  <h1>DevOps avancé</h1>
+  <p>4 demi-journées · une heure de théorie, puis TP en autonomie</p>
+
+  <a class="card" href="dj1-infrastructure-as-code/">
+    <h2>1 : L'infrastructure est du code</h2>
+    <p>Déclaratif et impératif, state, plan et apply, modules, immutabilité et drift, Terraform, Platform Engineering.</p>
+  </a>
+
+  <a class="card" href="dj2-gitops/">
+    <h2>2 : Git est la source de vérité</h2>
+    <p>Boucle de réconciliation, operators, GitOps avec ArgoCD, Kustomize, pipeline, secrets dans git, stratégies de déploiement.</p>
+  </a>
+
+  <h2>Pendant les TP</h2>
+  <ul class="docs">
+    <li><a href="../tp/tp0-remise-a-niveau.html">TP0</a> : remise à niveau, cluster local et dépôt</li>
+    <li><a href="../tp/tp1-plateforme-en-code.html">TP1</a> : la plateforme en code (Terraform)</li>
+    <li><a href="../tp/tp2-gitops.html">TP2</a> : GitOps (ArgoCD, Kustomize)</li>
+    <li><a href="../tp/tp3-du-commit-au-cluster.html">TP3</a> : du commit au cluster (pipeline)</li>
+    <li><a href="../tp/tp4-secret-dans-git.html">TP4</a> : un secret dans git (Sealed Secrets)</li>
+    <li><a href="../tp/memo-j1.html">Mémo</a> : les commandes de la journée</li>
+    <li><a href="../evaluation/grille.html">Grille d'évaluation</a> : les dix cases que le script vérifie</li>
+  </ul>
+
+  <footer>
+    Slides Reveal.js · navigation : flèches / espace · vue d'ensemble : <kbd>O</kbd> ·
+    recherche : <kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>F</kbd> · plein écran : <kbd>F</kbd>
+  </footer>
+</body>
+</html>
